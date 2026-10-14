@@ -1,0 +1,16 @@
+{
+  "name": "kitchen-cabinet-flow",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "postinstall": "npm --prefix prototype ci --include=dev",
+    "dev": "npm --prefix prototype run dev",
+    "build": "npm --prefix prototype run build",
+    "typecheck": "npm --prefix prototype run typecheck",
+    "lint": "npm --prefix prototype run lint",
+    "test": "npm --prefix prototype run test"
+  }
+}
